@@ -389,3 +389,15 @@ http://192.168.49.2:30268
 Com podem observar en la imatge s'ha creat el servei wordpress.
 
 ![imagen](https://raw.githubusercontent.com/raulbaena/provatest/main/provakube/images/image.png)
+
+Borrem tot
+```
+raultest@ubuntu:/var/tmp/provatest/provakube/app$ kubectl delete -k ./
+secret "mysql-pass-9gtcfc4f5k" deleted
+service "wordpress" deleted
+service "wordpress-mysql" deleted
+persistentvolumeclaim "mysql-pv-claim" deleted
+persistentvolumeclaim "wp-pv-claim" deleted
+deployment.apps "wordpress" deleted
+deployment.apps "wordpress-mysql" deleted
+```
