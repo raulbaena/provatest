@@ -182,7 +182,7 @@ docker_container.nginx: Creation complete after 1s [id=18b987a7f574ed742c2e5c035
 Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 ```
 Comprovem el funcionament de nginx
-![imagen]()
+![imagen](https://raw.githubusercontent.com/raulbaena/provatest/main/provaterraform/imagenes/imagen8000.png)
 
 En la configuració hem posat que el servei surti atraves del port 8000. Ho modificarem y el posarem al 8080
 ```
@@ -232,4 +232,4 @@ Plan: 1 to add, 0 to change, 1 to destroy.
 Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run "terraform apply" now.
 ```
 Mirem el port
-![imagen8080]()
+![imagen8080](https://raw.githubusercontent.com/raulbaena/provatest/main/provaterraform/imagenes/imagen8080.png)
