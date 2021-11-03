@@ -177,3 +177,14 @@ spec:
     tier: mysql
   clusterIP: None
 ```
+## kustomization.yaml
+Fitxers amb contraseñas sensibles
+```
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=test
+resources:
+  - mysql-deployment.yaml
+  - wordpress-deployment.yaml
+```
