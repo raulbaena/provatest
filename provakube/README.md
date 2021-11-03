@@ -381,3 +381,10 @@ Containers:
       /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-2xbhb (ro)
       /var/www/html from wordpress-persistent-storage (rw)
 ```
+Executem la següent comanda per veure el funcionament de wordpress
+```
+raultest@ubuntu:/var/tmp/provatest/provakube/app$ minikube service wordpress --url
+http://192.168.49.2:30268
+```
+Com podem observar en la imatge s'ha creat el servei wordpress.
+
