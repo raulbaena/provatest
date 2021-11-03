@@ -388,3 +388,4 @@ http://192.168.49.2:30268
 ```
 Com podem observar en la imatge s'ha creat el servei wordpress.
 
+![imagen](https://raw.githubusercontent.com/raulbaena/provatest/main/provakube/images/image.png)
